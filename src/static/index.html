@@ -15,6 +15,30 @@
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
+        <div class="filters">
+          <div class="filter-group">
+            <label for="search">Search</label>
+            <input type="search" id="search" placeholder="Search activities..." />
+          </div>
+          <div class="filter-group">
+            <label for="category-filter">Category</label>
+            <select id="category-filter">
+              <option value="">All categories</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="venue-filter">Venue</label>
+            <select id="venue-filter">
+              <option value="">All venues</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="date-filter">Date</label>
+            <select id="date-filter">
+              <option value="">All dates</option>
+            </select>
+          </div>
+        </div>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
